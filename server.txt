@@ -1,0 +1,53 @@
+Creating team Agent2d (base)
+Creating team Agent2d (base)
+Launch npc base_left-1
+Launch npc base_left-2
+Launch npc base_left-3
+Launch npc base_left-4
+Launch npc base_left-5
+Launch npc base_left-6
+Waiting for player-controlled agent base_left-0: config_dir=/home/zyegao/Projects/MRL/HFO-PLUS/HFO-PLUS/bin/teams/base/config/formations-dt, server_port=6000, server_addr=localhost, team_name=base_left, play_goalie=False
+Launch npc base_left-8
+Launch npc base_left-9
+Launch npc base_left-10
+Waiting for player-controlled agent base_left-1: config_dir=/home/zyegao/Projects/MRL/HFO-PLUS/HFO-PLUS/bin/teams/base/config/formations-dt, server_port=6000, server_addr=localhost, team_name=base_left, play_goalie=False
+Launch npc base_right-1
+Launch npc base_right-2
+Launch npc base_right-3
+Launch npc base_right-4
+Launch npc base_right-5
+Launch npc base_right-6
+Launch npc base_right-7
+Launch npc base_right-8
+Launch npc base_right-9
+Launch npc base_right-10
+Launch npc base_right-11
+Checking all players connected
+Starting game
+EndOfTrial: 0 / 1 70 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 0 / 2 135 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 0 / 3 191 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 0 / 4 236 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 0 / 5 279 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 0 / 6 350 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 0 / 7 411 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 1 / 8 480 GOAL-11
+EndOfTrial: 1 / 9 533 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 1 / 10 589 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 1 / 11 650 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 1 / 12 699 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 1 / 13 761 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 1 / 14 809 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 1 / 15 851 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 1 / 16 906 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 1 / 17 944 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 1 / 18 1012 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 1 / 19 1064 CAPTURED_BY_DEFENSE-1
+EndOfTrial: 2 / 20 1136 GOAL-11
+TotalFrames = 1137, AvgFramesPerTrial = 56.9, AvgFramesPerGoal = 70.5
+Trials             : 20
+Goals              : 2
+Defense Captured   : 18
+Balls Out of Bounds: 0
+Out of Time        : 0
+[start.py] Cleaning up server and other processes
