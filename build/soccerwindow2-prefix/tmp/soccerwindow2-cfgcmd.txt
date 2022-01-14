@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_BUILD_TYPE=MinSizeRel;-DLIBRCSC_INCLUDE_DIR=/home/zyegao/Projects/MRL/HFO-PLUS/HFO-PLUS/build/librcsc-prefix/src/librcsc;-DLIBRCSC_LINK_DIR=/home/zyegao/Projects/MRL/HFO-PLUS/HFO-PLUS/build/librcsc-prefix/src/librcsc-build/lib;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

@@ -75,9 +75,7 @@ example/communication_agent
 example/hand_coded_defense_agent
 
 # Dependency directories
-librcsc-prefix/
-rcssserver-prefix/
-soccerwindow2-prefix/
+
 
 # Logs
 log/
