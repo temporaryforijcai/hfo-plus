@@ -1,3 +1,3 @@
-repository='https://github.com/mhauskn/rcssserver.git'
+repository='https://github.com/temporaryforijcai/rcssserver-15.2.2-hfoplus.git'
 module=''
 tag=''

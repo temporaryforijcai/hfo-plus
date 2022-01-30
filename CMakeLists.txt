@@ -14,7 +14,7 @@ find_package(FLEX REQUIRED)
 include_directories(${Boost_INCLUDE_DIRS})
 
 ExternalProject_Add(rcssserver
-  GIT_REPOSITORY "https://github.com/mhauskn/rcssserver.git"
+  GIT_REPOSITORY "https://github.com/temporaryforijcai/rcssserver-15.2.2-hfoplus.git"
   GIT_TAG "master"
   CMAKE_ARGS -DCMAKE_BUILD_TYPE=MinSizeRel
   UPDATE_COMMAND ""
@@ -25,7 +25,7 @@ ExternalProject_Get_Property(rcssserver BINARY_DIR)
 set(RCSSSERVER_BINARY_DIR ${BINARY_DIR}/bin)
 
 ExternalProject_Add(librcsc
-  GIT_REPOSITORY "https://github.com/mhauskn/librcsc.git"
+  GIT_REPOSITORY "https://github.com/temporaryforijcai/librcsc-hfoplus.git"
   GIT_TAG "master"
   CMAKE_ARGS -DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE}
   UPDATE_COMMAND ""

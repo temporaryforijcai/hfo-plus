@@ -52,7 +52,7 @@ set(error_code 1)
 set(number_of_tries 0)
 while(error_code AND number_of_tries LESS 3)
   execute_process(
-    COMMAND "/usr/bin/git" ${git_options} clone ${git_clone_options} --origin "origin" "https://github.com/mhauskn/rcssserver.git" "rcssserver"
+    COMMAND "/usr/bin/git" ${git_options} clone ${git_clone_options} --origin "origin" "https://github.com/temporaryforijcai/rcssserver-15.2.2-hfoplus.git" "rcssserver"
     WORKING_DIRECTORY "/home/zyegao/Projects/MRL/HFO-PLUS/HFO-PLUS/build/rcssserver-prefix/src"
     RESULT_VARIABLE error_code
     )
@@ -63,7 +63,7 @@ if(number_of_tries GREATER 1)
           ${number_of_tries} times.")
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to clone repository: 'https://github.com/mhauskn/rcssserver.git'")
+  message(FATAL_ERROR "Failed to clone repository: 'https://github.com/temporaryforijcai/rcssserver-15.2.2-hfoplus.git'")
 endif()
 
 execute_process(

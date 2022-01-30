@@ -70,7 +70,7 @@ def main(args):
                   'server::game_logging=%i server::text_logging=%i ' \
                   'server::hfo_logging=%i server::hfo_log_dir=%s ' \
                   'server::game_log_dir=%s server::text_log_dir=%s '\
-                  'server::synch_mode=%i server::hfo=1 ' \
+                  'server::synch_mode=%i server::hfo=%i server::catchingpoint=%i ' \
                   'server::fullstate_l=%i server::fullstate_r=%i ' \
                   'server::coach_w_referee=1 server::hfo_max_trial_time=%i ' \
                   'server::hfo_max_trials=%i server::hfo_max_frames=%i ' \
@@ -85,7 +85,8 @@ def main(args):
                   %(server_port, coach_port, olcoach_port,
                     args.logging, args.logging, args.hfo_logging,
                     args.logDir, args.logDir, args.logDir,
-                    args.sync, args.fullstate, args.fullstate,
+                    args.sync, args.hfo, args.catchingpoint,
+                    args.fullstate, args.fullstate,
                     args.maxFramesPerTrial, args.numTrials, args.numFrames,
                     args.offenseOnBall, args.seed, args.maxUntouchedTime,
                     args.min_ball_x, args.max_ball_x,
@@ -144,6 +145,10 @@ def parseArgs():
   installed_teams = os.listdir(team_dir)
   p = argparse.ArgumentParser(description='Start Half Field Offense.',
                               formatter_class=argparse.RawTextHelpFormatter)
+  p.add_argument('--hfo', dest='hfo', action='store_true', default=False,
+                 help='Run hfo scene. Default:1.')
+  p.add_argument('--catchingpoint', dest='catchingpoint', action='store_true', default=False,
+                 help='Run catchpoint scene. Default:1.')
   p.add_argument('--headless', dest='headless', action='store_true',
                  help='Run without a monitor.')
   p.add_argument('--trials', dest='numTrials', type=int, default=-1,

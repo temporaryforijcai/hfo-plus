@@ -1,0 +1,10 @@
+# Catchers: 2
+# Points:  2
+# Description of Fields:
+# 1) Episode number
+# 2) Start time in simulator steps (100ms)
+# 3) End time in simulator steps (100ms)
+# 4) Duration in simulator steps (100ms)
+# 5) Episode result
+#
+agent: 49.1886   -23.1232point: 44.7233   -3.55031agent: 50.674   -17.2517point: 50.7007   -3.442481	0	6	6	OUT_OF_CHANGES
